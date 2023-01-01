@@ -1,0 +1,9 @@
+name: TestPlugin
+version: '${project.version}'
+main: testplugin.testplugin.TestPlugin
+api-version: 1.19
+commands:
+  barkeepersellmenu:
+    description: Opens up the menu to sell brews for the barkeeper job.
+    usage: /barkeepersellmenu
+
