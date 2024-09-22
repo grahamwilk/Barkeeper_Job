@@ -1,7 +1,7 @@
-name: TestPlugin
-version: '${project.version}'
-main: testplugin.testplugin.TestPlugin
-api-version: 1.19
+name: BreweryxJobs
+version: '1.0-SNAPSHOT'
+main: me.grahamwilk.breweryxjobs.BreweryxJobs
+api-version: '1.21'
 commands:
   barkeepersellmenu:
     description: Opens up the menu to sell brews for the barkeeper job.

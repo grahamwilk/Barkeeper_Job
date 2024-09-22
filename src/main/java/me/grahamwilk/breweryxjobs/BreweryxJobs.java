@@ -1,9 +1,9 @@
-package testplugin.testplugin;
+package me.grahamwilk.breweryxjobs;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import testplugin.testplugin.commands.BarkeeperSellMenu;
+import me.grahamwilk.breweryxjobs.commands.BarkeeperSellMenu;
 
-public final class TestPlugin extends JavaPlugin {
+public final class BreweryxJobs extends JavaPlugin {
 
     @Override
     public void onEnable() {
