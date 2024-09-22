@@ -1,0 +1,108 @@
+Barkeeper:
+  fullname: Barkeeper
+  shortname: Bk
+  FullDescription:
+  - "Earns money selling alcohol."
+  ChatColour: LIGHT_PURPLE
+  chat-display: full
+  max-level: 200
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Heavy drinker
+      Objectives:
+      - Brew;glowstone_dust;2
+      - Brew;redstone;2
+      - Brew;sugar;2
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Brew some stuff and get money
+      - Get 100 for this!
+  Gui:
+    Item: cauldron
+  Craft:
+    "!Wheatbeer":
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+    "!Beer":
+      income: 3
+      points: 3
+      experience: 3
+    "!Darkbeer":
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    "!Red Wine":
+      income: 5
+      points: 5
+      experience: 5
+    "!Mead":
+      income: 3
+      points: 3
+      experience: 3
+    "!Sweet Apple Mead":
+      income: 5
+      points: 5
+      experience: 5
+    "!Apple Cider":
+      income: 5
+      points: 5
+      experience: 5
+    "!Apple Liquor":
+      income: 6
+      points: 6
+      experience: 6
+    "!Whiskey":
+      income: 8
+      points: 8
+      experience: 8
+    "!Spicy Rum":
+      income: 8
+      points: 8
+      experience: 8
+    "!Vodka":
+      income: 5.5
+      points: 5.5
+      experience: 5.5
+    "!Mushroom Vodka":
+      income: 9
+      points: 9
+      experience: 9
+    "!Gin":
+      income: 8.5
+      points: 8.5
+      experience: 8.5
+    "!Tequila":
+      income: 7
+      points: 7
+      experience: 7
+    "!Absinthe":
+      income: 10
+      points: 10
+      experience: 10
+    "!Green Absinthe":
+      income: 12.0
+      points: 12.0
+      experience: 12.0
+    "!Potato soup":
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    "!Coffee":
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    "!Eggnog":
+      income: 6.5
+      points: 6.5
+      experience: 6.5
