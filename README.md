@@ -1,9 +1,4 @@
 # MC_Brewery_Sell_Menu
-plugin to create a sell menu to sell brews created from the brewery plugin. Requires the Jobs &amp; Brewery plugin to also be installed.
+Creates a new command (/barkeepersellmenu) where you can sell brews crafted for a new Barkeeper job.
 
-What I learned while making this:
-
-* I learned to code in Java, using skills gained from coding in C#.
-* I improved my skills with logic and coding in general through creating a system to calculate payment based on what is being sold.
-* I improved my learning skills by learning how to code with new assets and coding plugins that I have never used before.
-* I learned how to create a product that can be used and downloaded by other people, that is of good quality.
+Requires both Breweryx & Jobs to be installed, and the Barkeeper.yml file to be added to the /jobs directory for the Jobs plugin. This contains configuration for the default breweryx recipes, but more can be added in a similar format.
